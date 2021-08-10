@@ -126,10 +126,6 @@ PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library
 
-# AOSiP Device Settings
-PRODUCT_PACKAGES += \
-    DeviceSettings
-
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl:32 \
@@ -173,10 +169,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.display.config@1.9 \
     vendor.display.config@1.9_vendor
-
-# Doze
-PRODUCT_PACKAGES += \
-    OnePlusDoze
 
 # DRM
 PRODUCT_PACKAGES += \
